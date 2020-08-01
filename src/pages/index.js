@@ -9,76 +9,65 @@ import SEO from "../components/seo";
 const IndexPage = () => (
   <Layout>
     <Header />
-    <SEO title="Ryan Fitzgerald" />
+    <SEO title="Adamu M. Dankore" />
     <Section id="about" title="About Me">
       <p>
-        I'm a motivated full-stack engineer who has experience building and
-        scaling web applications and services in various domains.
+        I have shipped software that have been used around the world. I am a
+        self-taught software engineer who specializes in responsive web designs.
       </p>
       <p>
-        I'm also passionate about open source contributions, working in high
-        impact environments with frequent deployments, and helping growing
-        development teams build great products.
+        My design works have been seen more 13 million times and shared over
+        231,674 times.
       </p>
     </Section>
     <Section id="experience" title="Experience">
       <Link
-        title="Resolver"
-        link="https://www.resolver.com/"
-        desc="Full-Stack Developer, March 2020 - Present"
-      />  
-      <Link
-        title="Ambyint"
-        link="https://ambyint.com"
-        desc="Full-Stack Developer, September 2018 - March 2020"
+        title="Home Away From Home"
+        link="https://homeawayfromhome.online/"
+        desc="Software Engineer, March 2018 - Present"
       />
       <Link
-        title="Bank of Canada"
-        link="https://bankofcanada.ca"
-        desc="Full-Stack Developer, January 2018 - September 2018"
+        title="Cambrex"
+        link="https://cambrex.com"
+        desc="Full-Stack Developer, September 2019 - December 2020"
       />
       <Link
-        title="Bank of Canada"
-        link="https://bankofcanada.ca"
-        desc="Full-Stack Developer (Co-op), May 2015 - August 2017"
+        title="Freelancer"
+        link="https://github.com/dankore"
+        desc="Full-Stack Developer & Designer, January 2018 - present"
       />
     </Section>
-    <Section id="projects" title="Projects">
+    <Section id="projects" title="Sample Work">
       <Link
-        title="Pivalink"
-        link="https://pivalink.com"
-        desc="Tool to create microlanding pages that can be easily updated and customized to fit any brand"
+        title="My Nigerian Projects"
+        link="https://mynigerianprojects.com/"
+        desc="I post my projects, people bid on it. I save money. They make money."
       />
       <Link
-        title="Coursefacts"
-        link="https://coursefacts.com"
-        desc="A platform where students can read and write university / college course reviews anonymously"
+        title="Harnak Spices"
+        link="https://harnak.netlify.app/"
+        desc="An e-commerce platform for buying a natural, healthy, and tasty spices."
       />
       <Link
-        title="Dev Blog"
-        link="https://github.com/RyanFitzgerald/devblog"
-        desc="A open source and minimal personal blog template for developers built with Gatsby and React"
+        title="Shopping Aid"
+        link="https://shopping-aid.herokuapp.com/"
+        desc="An app that helps eliminate paper waste and makes managing shopping list easy."
       />
       <Link
-        title="Dev Portfolio"
-        link="https://github.com/RyanFitzgerald/devportfolio"
-        desc="An open source and customizable single-page personal portfolio template for developers"
-      />
-      <Link
-        title="Day Counter"
-        link="https://chrome.google.com/webstore/detail/day-counter-new-tab-page/popaiegponeiefbiddhmaphpbdjoegff?hl=en"
-        desc="Chrome extension to track days until or since life events with over 5k active users"
+        title="GSS Gwarinpa Contact Book"
+        link="https://www.gssgcontactbook.com/"
+        desc="Contact List For Present And Past GSS Gwarinpa Students, Abuja."
       />
     </Section>
     <Section id="skills" title="Skills">
       <Link
         title="Languages & Frameworks"
-        desc="JavaScript (ES6+), React, Node.js, Express.js, Golang, Ruby on Rails, PHP"
+        desc="JavaScript (ES6+), React, Node.js, Express.js"
       />
-      <Link title="Databases" desc="MongoDB, PostreSQL, MySQL" />
+      <Link title="Databases" desc="MongoDB, SQL" />
       <Link
         title="Other"
-        desc="Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum"
+        desc="Amazon Web Services (AWS), CI / CD, API design, Agile / Scrum"
       />
     </Section>
   </Layout>
