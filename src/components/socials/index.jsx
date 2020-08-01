@@ -7,7 +7,7 @@ const Socials = () => {
     <div>
       <ul className={classes.list}>
         <li className={classes.item}>
-          <a className={classes.link} href="https://github.com/ryanfitzgerald">
+          <a className={classes.link} href="https://github.com/dankore">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -26,7 +26,7 @@ const Socials = () => {
         <li className={classes.item}>
           <a
             className={classes.link}
-            href="https://www.linkedin.com/in/ryanafitzgerald/"
+            href="https://www.linkedin.com/in/adamumuhammad"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -46,10 +46,7 @@ const Socials = () => {
           </a>
         </li>
         <li className={classes.item}>
-          <a
-            className={classes.link}
-            href="https://twitter.com/ryanafitzgerald"
-          >
+          <a className={classes.link} href="https://twitter.com/adamumdankore">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
