@@ -75,6 +75,35 @@ const IndexPage = () => (
         desc="Amazon Web Services (AWS), CI / CD, API design, Agile / Scrum"
       />
     </Section>
+    <Section id="upcoming-projects" title="Upcoming Project(s)">
+      <Link
+        title="Gwandara Media Youth Association Ara"
+        desc="Client wants a web application for their organization."
+      />
+      <Link
+        title="A real estate web application"
+        desc="I want to build a web application to track who rents my properties, when their rent is due, maintenace requests and more."
+      />
+    </Section>
+    <Section id="working-on" title="Project(s) I'm Working On">
+      <Link
+        title="Music Promostion Application"
+        link="https://john-sido.netlify.app"
+        desc="Client is a gospel singer and wants a web application to promote his music and also allows other artistes post their songs."
+      />
+    </Section>
+    <Section id="recently-completed" title="Recently Completed Project(s)">
+      <Link
+        title="Harnak Spices"
+        link="https://harnak.netlify.app"
+        desc="An e-commerce website for Natural, Healthy and Tasty Spices."
+      />
+      <Link
+        title="My Nigerian Projects"
+        link="https://mynigerianprojects.com/"
+        desc="I post my projects, people bid on it. I save money. They make money."
+      />
+    </Section>
   </Layout>
 );
 
