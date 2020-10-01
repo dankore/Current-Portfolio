@@ -22,9 +22,14 @@ const IndexPage = () => (
     </Section>
     <Section id="experience" title="Experience">
       <Link
+        title="Cambrex"
+        link="https://cambrex.com"
+        desc="Chemist, November 2017 - Present"
+      />
+      <Link
         title="Home Away From Home"
-        link="https://homeawayfromhome.online/"
-        desc="Software Engineer, March 2018 - Present"
+        link="https://homeawayfromhome.online"
+        desc="Software Engineer, March 2018 - September 2020"
       />
       <Link
         title="Cambrex"
