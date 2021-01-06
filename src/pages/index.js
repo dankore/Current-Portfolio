@@ -12,8 +12,8 @@ const IndexPage = () => (
     <SEO title="Adamu M. Dankore" />
     <Section id="about" title="About Me">
       <p>
-        I have shipped software that have been used around the world. I am a
-        self-taught software engineer who specializes in responsive web designs.
+        I am a Software Engineer and Hardware Technician at Letter B, a small software 
+        company that builds critical software for other companies.
       </p>
       <p>
         My design works have been seen more 13 million times and shared over
@@ -21,10 +21,15 @@ const IndexPage = () => (
       </p>
     </Section>
     <Section id="experience" title="Experience">
+    <Link
+        title="Letter B"
+        link="https://letterbllc.com"
+        desc="Software Engineer and Hardware Technician, November 2020 - Present"
+      />
       <Link
         title="Cambrex"
         link="https://cambrex.com"
-        desc="Chemist, November 2017 - Present"
+        desc="Chemist, November 2017 - November 2020"
       />
       <Link
         title="Home Away From Home"
@@ -67,12 +72,12 @@ const IndexPage = () => (
     <Section id="skills" title="Skills">
       <Link
         title="Languages & Frameworks"
-        desc="JavaScript (ES6+), React, Node.js, Express.js"
+        desc="JavaScript (ES6+), C#, React, Node.js, Express.js"
       />
-      <Link title="Databases" desc="MongoDB, SQL" />
+      <Link title="Databases" desc="MongoDB, MySQL" />
       <Link
         title="Other"
-        desc="Amazon Web Services (AWS), CI / CD, API design, Agile / Scrum"
+        desc="Amazon Web Services (AWS), Azure DevOps, Digital Ocean, CI / CD, API design, Agile / Scrum"
       />
     </Section>
     <Section id="upcoming-projects" title="Upcoming Project(s)">
