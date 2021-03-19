@@ -17,7 +17,7 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: docker.pkg.github.com
-          repository: dankore-software/current-portfolio/current-portfolio
+          repository: dankore/current-portfolio/current-portfolio
           tag_with_ref: true
       - name: Deploy image
         uses: stardustventures/caprover-deploy@v2
@@ -25,5 +25,5 @@ jobs:
           server: "${{ secrets.CAPROVER_URL }}"
           password: "${{ secrets.CAPROVER_PASSWORD }}"
           appname: "${{ secrets.CAPROVER_APP }}"
-          image: docker.pkg.github.com/dankore-software/current-portfolio
+          image: docker.pkg.github.com/dankore/current-portfolio
          
